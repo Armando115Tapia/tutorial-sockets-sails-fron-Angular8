@@ -26,7 +26,10 @@
             "styles": [
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": [
+              "./node_modules/sails.io.js/dist/sails.io.js",
+              "./src/assets/configuracionSockets.js"
+            ]
           },
           "configurations": {
             "production": {
@@ -120,6 +123,7 @@
           }
         }
       }
-    }},
+    }
+  },
   "defaultProject": "modalsAndSockets"
 }
